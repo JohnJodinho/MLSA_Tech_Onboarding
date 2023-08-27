@@ -31,31 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Attendance System",
+    description: "Developed an IoT-based attendance system using RFID technology for efficient tracking...",
+    url: "https://github.com/JohnJodinho/attendance-system",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Smart Plug for Energy Monitoring",
+    description: "Designed a smart plug that monitors energy consumption and optimizes usage through IoT...",
+    url: "https://github.com/JohnJodinho/smart-plug-energy-monitoring",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "Solar Tracking System",
+    description: "Built an automated solar panel tracking system that follows the sun's movement for maximum efficiency...",
+    url: "https://github.com/JohnJodinho/solar-tracking-system",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Water Level Detection and Monitoring System",
+    description: "Created an IoT solution for detecting and monitoring water levels in tanks or reservoirs...",
+    url: "https://github.com/JohnJodinho/water-level-monitoring-system",
   },
 ];
-
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
